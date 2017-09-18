@@ -13,14 +13,12 @@ import UIKit
 #endif
 
 class ViewController: UIViewController {
-    var flow: FlowOrchestrator<ProvisioningDataModel>?
+    var flow: ProvisioningFlow?
     private var bag: DisposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.flow = ProvisioningFlow(viewController: navigationController!)
-        self.bag = DisposeBag()
-        
+        self.flow = ProvisioningFlow(viewController: navigationController!)        
     }
 
     @IBAction func onPresentPressed(_ sender: Any) {

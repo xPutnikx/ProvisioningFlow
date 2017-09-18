@@ -15,14 +15,15 @@
 		82838F1E1F6DC77800B514DC /* FlowOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82838F1D1F6DC77800B514DC /* FlowOrchestrator.swift */; };
 		82838F221F6DC8DA00B514DC /* RegistrationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82838F211F6DC8DA00B514DC /* RegistrationDataModel.swift */; };
 		82838F241F6DCCB300B514DC /* FlowObservableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82838F231F6DCCB300B514DC /* FlowObservableTask.swift */; };
-		82838F261F6EFC0600B514DC /* CheckVinTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82838F251F6EFC0600B514DC /* CheckVinTask.swift */; };
-		82838F2A1F6F0C4E00B514DC /* CheckVinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82838F291F6F0C4E00B514DC /* CheckVinViewController.xib */; };
-		82838F2C1F6F13F800B514DC /* CellWithButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82838F2B1F6F13F800B514DC /* CellWithButton.xib */; };
-		82838F2E1F6F142A00B514DC /* CellWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82838F2D1F6F142A00B514DC /* CellWithButton.swift */; };
-		82838F301F6F146F00B514DC /* CellWithEditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82838F2F1F6F146F00B514DC /* CellWithEditText.swift */; };
-		82838F321F6F148800B514DC /* CellWithEditText.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82838F311F6F148800B514DC /* CellWithEditText.xib */; };
-		82838F341F6F92F400B514DC /* RegisterUserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82838F331F6F92F400B514DC /* RegisterUserTask.swift */; };
-		82838F361F6F939000B514DC /* RegisterUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82838F351F6F939000B514DC /* RegisterUserViewController.xib */; };
+		82A619771F6FE4C8001ECEB1 /* ProvisioningFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A619761F6FE4C8001ECEB1 /* ProvisioningFlow.swift */; };
+		82A619801F6FE4DD001ECEB1 /* CellWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A619781F6FE4DD001ECEB1 /* CellWithButton.swift */; };
+		82A619811F6FE4DD001ECEB1 /* CellWithButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A619791F6FE4DD001ECEB1 /* CellWithButton.xib */; };
+		82A619821F6FE4DD001ECEB1 /* CellWithEditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6197A1F6FE4DD001ECEB1 /* CellWithEditText.swift */; };
+		82A619831F6FE4DD001ECEB1 /* CellWithEditText.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A6197B1F6FE4DD001ECEB1 /* CellWithEditText.xib */; };
+		82A619841F6FE4DD001ECEB1 /* CheckVinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A6197C1F6FE4DD001ECEB1 /* CheckVinViewController.xib */; };
+		82A619851F6FE4DD001ECEB1 /* RegisterUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A6197D1F6FE4DD001ECEB1 /* RegisterUserViewController.xib */; };
+		82A619861F6FE4DD001ECEB1 /* CheckVinTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6197E1F6FE4DD001ECEB1 /* CheckVinTask.swift */; };
+		82A619871F6FE4DD001ECEB1 /* RegisterUserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6197F1F6FE4DD001ECEB1 /* RegisterUserTask.swift */; };
 		881E15FAB33BAEE644D97E1E /* Pods_ProvisioningFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9853EFCE58D790748919D314 /* Pods_ProvisioningFlow.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,14 +40,15 @@
 		82838F1D1F6DC77800B514DC /* FlowOrchestrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowOrchestrator.swift; sourceTree = "<group>"; };
 		82838F211F6DC8DA00B514DC /* RegistrationDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationDataModel.swift; sourceTree = "<group>"; };
 		82838F231F6DCCB300B514DC /* FlowObservableTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowObservableTask.swift; sourceTree = "<group>"; };
-		82838F251F6EFC0600B514DC /* CheckVinTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckVinTask.swift; sourceTree = "<group>"; };
-		82838F291F6F0C4E00B514DC /* CheckVinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckVinViewController.xib; sourceTree = "<group>"; };
-		82838F2B1F6F13F800B514DC /* CellWithButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellWithButton.xib; sourceTree = "<group>"; };
-		82838F2D1F6F142A00B514DC /* CellWithButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellWithButton.swift; sourceTree = "<group>"; };
-		82838F2F1F6F146F00B514DC /* CellWithEditText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellWithEditText.swift; sourceTree = "<group>"; };
-		82838F311F6F148800B514DC /* CellWithEditText.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellWithEditText.xib; sourceTree = "<group>"; };
-		82838F331F6F92F400B514DC /* RegisterUserTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUserTask.swift; sourceTree = "<group>"; };
-		82838F351F6F939000B514DC /* RegisterUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterUserViewController.xib; sourceTree = "<group>"; };
+		82A619761F6FE4C8001ECEB1 /* ProvisioningFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProvisioningFlow.swift; path = poc/ProvisioningFlow.swift; sourceTree = "<group>"; };
+		82A619781F6FE4DD001ECEB1 /* CellWithButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellWithButton.swift; path = poc/vc/CellWithButton.swift; sourceTree = "<group>"; };
+		82A619791F6FE4DD001ECEB1 /* CellWithButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellWithButton.xib; path = poc/vc/CellWithButton.xib; sourceTree = "<group>"; };
+		82A6197A1F6FE4DD001ECEB1 /* CellWithEditText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellWithEditText.swift; path = poc/vc/CellWithEditText.swift; sourceTree = "<group>"; };
+		82A6197B1F6FE4DD001ECEB1 /* CellWithEditText.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CellWithEditText.xib; path = poc/vc/CellWithEditText.xib; sourceTree = "<group>"; };
+		82A6197C1F6FE4DD001ECEB1 /* CheckVinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CheckVinViewController.xib; path = poc/vc/CheckVinViewController.xib; sourceTree = "<group>"; };
+		82A6197D1F6FE4DD001ECEB1 /* RegisterUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterUserViewController.xib; path = poc/vc/RegisterUserViewController.xib; sourceTree = "<group>"; };
+		82A6197E1F6FE4DD001ECEB1 /* CheckVinTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckVinTask.swift; path = poc/task/CheckVinTask.swift; sourceTree = "<group>"; };
+		82A6197F1F6FE4DD001ECEB1 /* RegisterUserTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterUserTask.swift; path = poc/task/RegisterUserTask.swift; sourceTree = "<group>"; };
 		9853EFCE58D790748919D314 /* Pods_ProvisioningFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProvisioningFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,9 @@
 		82693E251F6DC5FF008D06A4 /* ProvisioningFlow */ = {
 			isa = PBXGroup;
 			children = (
+				82A619891F6FE4F5001ECEB1 /* vc */,
+				82A6198A1F6FE4FC001ECEB1 /* task */,
+				82A6198B1F6FE507001ECEB1 /* poc */,
 				82693E261F6DC5FF008D06A4 /* AppDelegate.swift */,
 				82693E281F6DC5FF008D06A4 /* ViewController.swift */,
 				82693E2A1F6DC5FF008D06A4 /* Main.storyboard */,
@@ -98,18 +103,40 @@
 				82693E2F1F6DC5FF008D06A4 /* LaunchScreen.storyboard */,
 				82693E321F6DC5FF008D06A4 /* Info.plist */,
 				82838F1D1F6DC77800B514DC /* FlowOrchestrator.swift */,
-				82838F211F6DC8DA00B514DC /* RegistrationDataModel.swift */,
 				82838F231F6DCCB300B514DC /* FlowObservableTask.swift */,
-				82838F251F6EFC0600B514DC /* CheckVinTask.swift */,
-				82838F291F6F0C4E00B514DC /* CheckVinViewController.xib */,
-				82838F2B1F6F13F800B514DC /* CellWithButton.xib */,
-				82838F351F6F939000B514DC /* RegisterUserViewController.xib */,
-				82838F2D1F6F142A00B514DC /* CellWithButton.swift */,
-				82838F2F1F6F146F00B514DC /* CellWithEditText.swift */,
-				82838F311F6F148800B514DC /* CellWithEditText.xib */,
-				82838F331F6F92F400B514DC /* RegisterUserTask.swift */,
 			);
 			path = ProvisioningFlow;
+			sourceTree = "<group>";
+		};
+		82A619891F6FE4F5001ECEB1 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				82A619781F6FE4DD001ECEB1 /* CellWithButton.swift */,
+				82A619791F6FE4DD001ECEB1 /* CellWithButton.xib */,
+				82A6197A1F6FE4DD001ECEB1 /* CellWithEditText.swift */,
+				82A6197B1F6FE4DD001ECEB1 /* CellWithEditText.xib */,
+				82A6197C1F6FE4DD001ECEB1 /* CheckVinViewController.xib */,
+				82A6197D1F6FE4DD001ECEB1 /* RegisterUserViewController.xib */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		82A6198A1F6FE4FC001ECEB1 /* task */ = {
+			isa = PBXGroup;
+			children = (
+				82A6197E1F6FE4DD001ECEB1 /* CheckVinTask.swift */,
+				82A6197F1F6FE4DD001ECEB1 /* RegisterUserTask.swift */,
+			);
+			name = task;
+			sourceTree = "<group>";
+		};
+		82A6198B1F6FE507001ECEB1 /* poc */ = {
+			isa = PBXGroup;
+			children = (
+				82838F211F6DC8DA00B514DC /* RegistrationDataModel.swift */,
+				82A619761F6FE4C8001ECEB1 /* ProvisioningFlow.swift */,
+			);
+			name = poc;
 			sourceTree = "<group>";
 		};
 		8940F94542A7AFD449A9F4DE /* Pods */ = {
@@ -185,12 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				82693E311F6DC5FF008D06A4 /* LaunchScreen.storyboard in Resources */,
-				82838F361F6F939000B514DC /* RegisterUserViewController.xib in Resources */,
-				82838F2C1F6F13F800B514DC /* CellWithButton.xib in Resources */,
-				82838F321F6F148800B514DC /* CellWithEditText.xib in Resources */,
-				82838F2A1F6F0C4E00B514DC /* CheckVinViewController.xib in Resources */,
+				82A619851F6FE4DD001ECEB1 /* RegisterUserViewController.xib in Resources */,
 				82693E2E1F6DC5FF008D06A4 /* Assets.xcassets in Resources */,
 				82693E2C1F6DC5FF008D06A4 /* Main.storyboard in Resources */,
+				82A619831F6FE4DD001ECEB1 /* CellWithEditText.xib in Resources */,
+				82A619811F6FE4DD001ECEB1 /* CellWithButton.xib in Resources */,
+				82A619841F6FE4DD001ECEB1 /* CheckVinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +274,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -257,12 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82838F301F6F146F00B514DC /* CellWithEditText.swift in Sources */,
+				82A619821F6FE4DD001ECEB1 /* CellWithEditText.swift in Sources */,
 				82838F221F6DC8DA00B514DC /* RegistrationDataModel.swift in Sources */,
-				82838F2E1F6F142A00B514DC /* CellWithButton.swift in Sources */,
-				82838F341F6F92F400B514DC /* RegisterUserTask.swift in Sources */,
-				82838F261F6EFC0600B514DC /* CheckVinTask.swift in Sources */,
+				82A619801F6FE4DD001ECEB1 /* CellWithButton.swift in Sources */,
 				82693E291F6DC5FF008D06A4 /* ViewController.swift in Sources */,
+				82A619871F6FE4DD001ECEB1 /* RegisterUserTask.swift in Sources */,
+				82A619861F6FE4DD001ECEB1 /* CheckVinTask.swift in Sources */,
+				82A619771F6FE4C8001ECEB1 /* ProvisioningFlow.swift in Sources */,
 				82838F1E1F6DC77800B514DC /* FlowOrchestrator.swift in Sources */,
 				82838F241F6DCCB300B514DC /* FlowObservableTask.swift in Sources */,
 				82693E271F6DC5FF008D06A4 /* AppDelegate.swift in Sources */,
