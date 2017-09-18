@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="IO7-P9-R2v" customClass="CellWithEditText" customModule="ProvisioningFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IO7-P9-R2v" id="azj-Aa-NCg">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lsm-c1-muw">
+                        <rect key="frame" x="0.0" y="6" width="375" height="30"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lsm-c1-muw" firstAttribute="top" secondItem="azj-Aa-NCg" secondAttribute="top" constant="6" id="PBX-yX-aga"/>
+                    <constraint firstAttribute="bottom" secondItem="lsm-c1-muw" secondAttribute="bottom" constant="7.5" id="d8o-u6-J9f"/>
+                    <constraint firstItem="lsm-c1-muw" firstAttribute="leading" secondItem="azj-Aa-NCg" secondAttribute="leading" id="lYV-eL-JDf"/>
+                    <constraint firstAttribute="trailing" secondItem="lsm-c1-muw" secondAttribute="trailing" id="oHe-hu-0m9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="editText" destination="lsm-c1-muw" id="tnd-SV-l6I"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="-6"/>
+        </tableViewCell>
+    </objects>
+</document>
